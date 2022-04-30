@@ -1,0 +1,27 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+  background-color: #1c1c1c;
+}
+
+h1,
+h2,
+p {
+  font-family: sans-serif;
+  color: #eeeeee;
+}
+
+#container {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+
+  padding: 1em;
+  border-radius: 4px;
+  background-color: #282828;
+
+  text-align: center;
+}
